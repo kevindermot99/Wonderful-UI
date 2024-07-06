@@ -8,7 +8,7 @@ function Sidebar() {
   const loaction = useLocation();
 
   return (
-    <div className="w-[300px] h-full fixed top-0 bg-white pt-[60px] z-10">
+    <div className="w-[300px] h-full fixed top-0 bg-white pt-[60px] z-10 max-md:hidden">
       <div className="w-full h-full overflow-y-scroll px-8 ">
         {/* ----------Getting Started------------ */}
         <div className="w-full h-fit relative mt-6">
@@ -21,14 +21,14 @@ function Sidebar() {
             {GettingStartted.map((project, index) => (
               <Link
                 key={index + 1}
-                to={`/${project}`}
+                to={`/${project.route}`}
                 className={`${linkStyle} ${
-                  location.hash === `#/${project}`
+                  location.hash === `#/${project.route}`
                     ? "border-l-main-color text-main-color pointer-events-none"
                     : "text-dark-text/80 border-border-lines-light"
                 }`}
               >
-                {project}
+                {project.name}
               </Link>
             ))}
           </div>
@@ -46,14 +46,14 @@ function Sidebar() {
             {Animations.map((project, index) => (
               <Link
                 key={index + 1}
-                to={`/${project}`}
+                to={`/${project.route}`}
                 className={`${linkStyle} ${
-                  location.hash === `#/${project}`
+                  location.hash === `#/${project.route}`
                     ? "border-l-main-color text-main-color pointer-events-none"
                     : "text-dark-text/80 border-border-lines-light"
                 }`}
               >
-                {project}
+                {project.name}
               </Link>
             ))}
           </div>

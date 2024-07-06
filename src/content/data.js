@@ -1,17 +1,18 @@
 export const Version = 'v0.1'
+export const ProjectName = "Wonderful UI"
 
+
+// Sidebar
 export const GettingStartted = [
-    "Installation",
-    "Browser Support",
+    {name: "Installation", route: "installation"},
+    // {name: "Browser Support", route: "browser-support"},
 ]
-
 export const Animations = [
-    "Scroll to top",
-    "On scroll",
-    "On page Load",
-    "Page Loader"
+    {name: "Scroll to top", route: "scroll-to-top"},
+    {name: "On scroll", route: "on-scroll"},
+    {name: "On page Load", route: "on-page-load"},
+    {name: "Page Loader", route: "page-loader"},
 ]
-
 export const Sections = [
     "Hero Section",
     "About Us",
@@ -38,7 +39,6 @@ export const Sections = [
     "Terms of Service",
     "Privacy Policy",
 ];
-
 export const Templates = [
     "Portfolios",
     "Sign Up Form",
@@ -46,9 +46,9 @@ export const Templates = [
     "Navbar",
     "Sidebar"
 ]
-
 export const Components = [
     "Buttons",
     "Modals",
     "Cards"
 ]
+

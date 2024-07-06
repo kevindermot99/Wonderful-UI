@@ -8,68 +8,7 @@ function Home() {
       <Navbar />
       {/* Wrapper */}
       <div className='flex items-start justify-between gap-5 w-full h-full relative'>
-        <Sidebar />
-        <div className='w-full flex-col'>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjep</h1>
-          <h1>opvjepv</h1>
-        </div>
+        
       </div>
     </div>
   )
