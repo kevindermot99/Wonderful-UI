@@ -7,7 +7,7 @@ import { ProjectName, Version } from "../content/data";
 
 function Navbar() {
   return (
-    <nav className="h-[60px] border-b-[1px] border-border-lines-light flex items-center justify-between px-7 w-full sticky top-0 z-20 bg-white/60  ">
+    <nav className="h-[60px] border-b-[1px] border-border-lines-light flex items-center justify-between px-7 w-full sticky top-0 z-20 bg-white/90 backdrop-blur-md ">
       {/* Logo */}
       <div className=" flex items-center justify-start gap-3">
         <Link to={`/`} className="flex items-center justify-start gap-2">
