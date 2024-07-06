@@ -1,3 +1,5 @@
+export const Version = 'v0.1'
+
 export const GettingStartted = [
     "Installation",
     "Browser Support",
