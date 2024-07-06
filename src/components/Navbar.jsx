@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/Wap_UI_Logo.png";
+import Logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 import { IoLogoGithub } from "react-icons/io";
 import { MdKeyboardArrowRight } from "react-icons/md";
@@ -10,7 +10,7 @@ function Navbar() {
       {/* Logo */}
       <div className=" flex items-center justify-start gap-2">
         <img src={Logo} className="h-6" />
-        <h1 className="font-semibold text-dark-text text-[18px] ">Wa-Pages</h1>
+        <h1 className="font-semibold text-dark-text text-[18px] ">Wonderful UI</h1>
         <p className="py-[4px] px-[13px] font-WorkSans rounded-full text-dark-text/60 bg-stone-200/60 font-semibold text-sm ml-1 cursor-pointer">
           v1.0
         </p>
@@ -23,22 +23,22 @@ function Navbar() {
       </div>
 
       {/* Buttons */}
-      <div className=" flex items-center justify-start gap-5">
+      <div className=" flex items-center justify-start gap-7">
         <Link
           to={`/`}
-          className="font-semibold text-sm text-dark-text hover:text-main-color transition px-2"
+          className="font-medium text-sm text-dark-text hover:text-main-color transition"
         >
           Docs
         </Link>
         <Link
           to={`/`}
-          className="font-semibold text-sm text-dark-text hover:text-main-color transition px-2"
+          className="font-medium text-sm text-dark-text hover:text-main-color transition"
         >
           Components
         </Link>
         <Link
           to={`/`}
-          className="font-semibold text-sm text-dark-text hover:text-main-color transition px-2"
+          className="font-medium text-sm text-dark-text hover:text-main-color transition"
         >
           Templates
         </Link>
