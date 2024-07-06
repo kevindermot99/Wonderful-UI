@@ -1,3 +1,8 @@
+export const GettingStartted = [
+    "Installation",
+    "Browser Support",
+]
+
 export const Animations = [
     "Scroll to top",
     "On scroll",

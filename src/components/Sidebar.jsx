@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Animations, Sections, Components, Templates } from "../content/data";
+import { Animations, Sections, Components, Templates, GettingStartted } from "../content/data";
 
 function Sidebar() {
   const linkStyle = ` font-medium text-sm w-full px-5 py-[6px] hover:text-dark-text border-l-[2px] transition hover:border-stone-400 truncate max-w-[100%]`;
@@ -18,26 +18,19 @@ function Sidebar() {
           </h1>
           {/* links */}
           <div className="flex flex-col items-start justify-start">
-            <Link
-              to={`/installation`}
-              className={`${linkStyle} ${
-                location.hash === `#/installation`
-                  ? "border-l-main-color text-main-color pointer-events-none"
-                  : "text-dark-text/80 border-border-lines-light"
-              }`}
-            >
-              Installtion
-            </Link>
-            <Link
-              to={`/browser support`}
-              className={`${linkStyle} ${
-                location.hash === `#/browser support`
-                  ? "border-l-main-color text-main-color pointer-events-none"
-                  : "text-dark-text/80 border-border-lines-light"
-              }`}
-            >
-              Browser Support
-            </Link>
+            {GettingStartted.map((project, index) => (
+              <Link
+                key={index + 1}
+                to={`/${project}`}
+                className={`${linkStyle} ${
+                  location.hash === `#/${project}`
+                    ? "border-l-main-color text-main-color pointer-events-none"
+                    : "text-dark-text/80 border-border-lines-light"
+                }`}
+              >
+                {project}
+              </Link>
+            ))}
           </div>
           <div className="w-full h-fit pb-3"></div>
         </div>

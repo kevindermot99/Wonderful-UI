@@ -34,21 +34,22 @@ function Navbar() {
           to={`/`}
           className="font-medium text-sm text-dark-text hover:text-main-color transition"
         >
-          Components
+          Compatibility
         </Link>
         <Link
           to={`/`}
           className="font-medium text-sm text-dark-text hover:text-main-color transition"
         >
-          Templates
+          Change log
         </Link>
-        <p className="text-light-text ">|</p>
-        <Link
-          to={`/`}
+        <p className="text-border-lines-light  ">|</p>
+        <a
+          href={`https://github.com/kevindermot99/Wonderful-UI`}
+          target="_blank"
           className="font-medium text-2xl text-dark-text hover:text-main-color transition"
         >
           <IoLogoGithub />
-        </Link>
+        </a>
       </div>
     </nav>
   );
