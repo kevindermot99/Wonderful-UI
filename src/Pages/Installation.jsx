@@ -21,7 +21,7 @@ function Installation({ name }) {
             Get started with {ProjectName}
           </h1>
           <Smalltext
-            text={`${ProjectName} is a React UI Kit that helps you get started in no time. It provides all the essentials your project needs with wonderful pre-made and customizable elements. To use this kit, simply install the following packages:`}
+            text={`A React UI Kit that helps you get started in no time. It provides all the essentials your project needs with wonderful pre-made and customizable elements. To use this kit, simply install the following packages:`}
           />
           <BulletPoints
             points={[
@@ -42,16 +42,19 @@ function Installation({ name }) {
           <Smalltext text="This kit is fully compatible with any of the tools listed below and many others " />
           <div className="gridRespo pt-5">
             <Framewrok
+            url={`https://nextjs.org/`}
               logo={`https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/nextjs-icon.png`}
               title="Next.js"
               desc="Works seamlessly with Next.js for building server-rendered React apps."
             />
             <Framewrok
+            url={`https://vitejs.dev/`}
               logo={`https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg`}
               title="Vite.js"
               desc="Optimized for fast builds and hot reloading with modern JavaScript."
             />
             <Framewrok
+            url={`https://create-react-app.dev/`}
               logo={`https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png`}
               title="Create React App"
               desc="Integrates smoothly with Create React App for quick project setups."
