@@ -4,8 +4,11 @@ export const ProjectName = "Wonderful UI"
 
 // Sidebar
 export const GettingStartted = [
+    {name: "Overview", route: "overview"},
     {name: "Installation", route: "installation"},
-    // {name: "Browser Support", route: "browser-support"},
+    {name: "Usage", route: "usage"},
+    {name: "FAQs", route: "faq"},
+
 ]
 export const Animations = [
     {name: "Scroll to top", route: "scroll-to-top"},

@@ -7,6 +7,7 @@ import BulletPoints from "../components/BulletPoints";
 import Framewrok from "../components/Framewrok";
 import CodeBrock from "../components/CodeBrock";
 import SpaceY from "../components/SpaceY";
+import MediumText from "../components/MediumText";
 
 function Installation({ name }) {
   return (
@@ -23,7 +24,7 @@ function Installation({ name }) {
             Get started with {ProjectName}
           </h1>
           <Smalltext
-            text={`Wonderful UI is a React UI kit for kickstarting your project. It comes packed with all the essentials and customizable elements you need, making it super easy to get started or transform your project's UI with professional-looking elements without breaking a sweat.`}
+            text={`Start using ${ProjectName} Today, one of the best React UI frameworks, for streamlined, professional, and customizable user interfaces.`}
           />
           <SpaceY />
           <Smalltext text={'To get started, please install the following packages, libraries, and frameworks:'} />
@@ -42,9 +43,7 @@ function Installation({ name }) {
           <Smalltext text="Once these installations are complete, You'll to import the 'Inter' font in your CSS file." />
           <CodeBrock />
           <Smalltext text="You are good to go 👍" />
-          <h1 className="text-dark-text text-xl font-bold capitalize mt-10 mb-3">
-            Supported in Projects made with
-          </h1>
+          <MediumText text={'Supported in Projects made with'} />
           <Smalltext text="This kit is fully compatible with ptojects made with: " />
           <div className="gridRespo pt-5">
             <Framewrok

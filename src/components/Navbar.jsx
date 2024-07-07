@@ -7,7 +7,7 @@ import { ProjectName, Version } from "../content/data";
 
 function Navbar() {
   return (
-    <nav className="h-[60px] border-b-[1px] border-border-lines-light flex items-center justify-between px-7 w-full sticky top-0 z-20 bg-white/90 backdrop-blur-md ">
+    <nav className="h-[60px] border-b-[1px] border-border-lines-light flex items-center justify-between px-7 w-full sticky top-0 z-20 bg-white/80 backdrop-blur-md ">
       {/* Logo */}
       <div className=" flex items-center justify-start gap-3">
         <Link to={`/`} className="flex items-center justify-start gap-2">
@@ -24,7 +24,7 @@ function Navbar() {
       {/* Buttons */}
       <div className=" flex items-center justify-start gap-7">
         <Link
-          to={`/installation`}
+          to={`/overview`}
           className="font-medium capitalize text-sm text-dark-text hover:text-main-color transition"
         >
           Docs
@@ -34,6 +34,12 @@ function Navbar() {
           className="font-medium capitalize text-sm text-dark-text hover:text-main-color transition"
         >
           Template store
+        </Link>
+        <Link
+          to={`/`}
+          className="font-medium capitalize text-sm text-dark-text hover:text-main-color transition"
+        >
+          Wallpapers
         </Link>
         <Link
           to={`/`}
