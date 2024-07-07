@@ -5,6 +5,8 @@ import { ProjectName } from "../content/data";
 import Smalltext from "../components/Smalltext";
 import BulletPoints from "../components/BulletPoints";
 import Framewrok from "../components/Framewrok";
+import CodeBrock from "../components/CodeBrock";
+import SpaceY from "../components/SpaceY";
 
 function Installation({ name }) {
   return (
@@ -21,8 +23,10 @@ function Installation({ name }) {
             Get started with {ProjectName}
           </h1>
           <Smalltext
-            text={`A React UI Kit that helps you get started in no time. It provides all the essentials your project needs with wonderful pre-made and customizable elements. To use this kit, simply install the following packages:`}
+            text={`Wonderful UI is a React UI kit for kickstarting your project. It comes packed with all the essentials and customizable elements you need, making it super easy to get started or transform your project's UI with professional-looking elements without breaking a sweat.`}
           />
+          <SpaceY />
+          <Smalltext text={'To get started, please install the following packages, libraries, and frameworks:'} />
           <BulletPoints
             points={[
               {
@@ -35,11 +39,13 @@ function Installation({ name }) {
               },
             ]}
           />
-          <Smalltext text="After installing the above packages, you’ll be all set." />
+          <Smalltext text="Once these installations are complete, You'll to import the 'Inter' font in your CSS file." />
+          <CodeBrock />
+          <Smalltext text="You are good to go 👍" />
           <h1 className="text-dark-text text-xl font-bold capitalize mt-10 mb-3">
-            Supported by
+            Supported in Projects made with
           </h1>
-          <Smalltext text="This kit is fully compatible with any of the tools listed below and many others " />
+          <Smalltext text="This kit is fully compatible with ptojects made with: " />
           <div className="gridRespo pt-5">
             <Framewrok
             url={`https://nextjs.org/`}

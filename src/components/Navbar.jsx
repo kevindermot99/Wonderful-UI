@@ -16,16 +16,9 @@ function Navbar() {
             {ProjectName}
           </h1>
         </Link>
-        <p className="py-[4px] px-[11px] font-WorkSans rounded-full text-dark-text/60 bg-stone-200/60 font-medium tracking-wide text-xs ml-1 cursor-default">
+        <p className="py-[4px] px-[11px] font-WorkSans rounded-full text-dark-text/60 bg-stone-200/60 font-medium tracking-wider text-xs ml-1 cursor-default">
           {Version}
         </p>
-        <div className="flex items-center justify-start gap-1 text-main-color bg-main-color/10 rounded-full ml-1 cursor-pointer py-[4px] pr-[10px] pl-[15px]">
-          <p className=" capitalize font-medium  text-xs line-clamp-1  max-w-[450px] ">
-            <span className="font-bold">Introducing: Scroll Animations: </span>{" "}
-            Seamless CSS Effects with Page Watcher and More!
-          </p>
-          <MdKeyboardArrowRight className="text-lg " />
-        </div>
       </div>
 
       {/* Buttons */}
