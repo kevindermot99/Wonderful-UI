@@ -33,7 +33,7 @@ function Navbar() {
           to={`/`}
           className="font-medium capitalize text-sm text-dark-text hover:text-main-color transition"
         >
-          showcase
+          Template store
         </Link>
         <Link
           to={`/`}

@@ -4,12 +4,12 @@ function CodeBrock() {
   return (
     <div className="bg-stone-100 w-full rounded-2xl p-6 my-3 font-normal text-sm text-dark-text ">
       <p className="italic text-dark-text/50 font-mono ">
-        <span className="font-mono select-none text-dark-text/50">1. &nbsp;</span>/* Import the
+        <span className="font-mono select-none text-dark-text/50 not-italic">1 &nbsp;</span>/* Import the
         font in your index.css/app.css */
       </p>
       <p className="font-mono">
         <span className="font-mono text-pink-600">
-          <span className="font-mono select-none text-dark-text/50">2. &nbsp;</span>@import{" "}
+          <span className="font-mono select-none text-dark-text/50 not-italic">2 &nbsp;</span>@import{" "}
         </span>
         <span className="font-mono text-blue-500">url</span>
         <span className="font-mono text-amber-500 ">(</span>
@@ -18,12 +18,12 @@ function CodeBrock() {
         </span>
         <span className="font-mono  text-amber-500 ">)</span>;
       </p>
-      <span className="font-mono select-none text-dark-text/50">3. &nbsp;</span><br />
+      <span className="font-mono select-none text-dark-text/50 not-italic">3 &nbsp;</span><br />
       <p className="italic text-dark-text/50 font-mono ">
-      <span className="font-mono select-none text-dark-text/50">4. &nbsp;</span>/* Apply the fonts to Wonderfull UI Elements */
+      <span className="font-mono select-none text-dark-text/50 not-italic">4 &nbsp;</span>/* Apply the fonts to Wonderfull UI Elements */
       </p>
       <p className="font-mono">
-        <span className="font-mono text-pink-600"><span className="font-mono select-none text-dark-text/50">5. &nbsp;</span>.w-ui </span>
+        <span className="font-mono text-pink-600"><span className="font-mono select-none text-dark-text/50 not-italic">5 &nbsp;</span>.w-ui </span>
         <span className="font-mono text-amber-500 ">{`{ `}</span>
         <span className="font-mono ">
           font-family:{" "}
