@@ -164,7 +164,7 @@ function Home() {
           >
             <div className="h-[100px] w-[160px] flex items-start justify-center flex-col gap-1">
               <div className="h-[70px] w-full bg-item-bgl-1 rounded-md flex items-center justify-center">
-                <span className="w-[50%] h-[50%] bg-item-bgl-2 rounded-md"></span>
+                {/* <span className="w-[50%] h-[50%] bg-item-bgl-2 rounded-md"></span> */}
               </div>
             </div>
             <p className="h-[30px] w-full text-center flex items-start justify-center font-normal tracking-tight text-sm leading-[16px] capitalize ">
