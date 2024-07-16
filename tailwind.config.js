@@ -9,11 +9,13 @@ export default {
       fontFamily: {
         Inter: ['Inter', 'sans-serif'],
         SourceCodePro: ['Source Code Pro', 'sans-serif'],
-        WorkSans: ['Work Sans', 'sans-serif']
+        WorkSans: ['Work Sans', 'sans-serif'],
+        Raleway: ['Raleway','sans-serif'],
+        Montserrat: ['Montserrat', 'sans-serif']
       },
       colors: {
-        "main-color": "#17b054",
-        "body-color-light": "#fff",
+        "main-color": "#648DE5",
+        "body-color-light": "#F7F9F7",
         "body-color-dark": "#121212",
         "border-lines-light": "#e7e7e7",
         "border-lines-dark": "#1D1D1D",
