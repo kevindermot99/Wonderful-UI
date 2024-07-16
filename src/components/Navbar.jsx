@@ -12,7 +12,8 @@ function Navbar() {
   return (
     <nav className="h-[60px] flex items-center justify-between px-6 w-full sticky top-0 z-20 bg-body-color-light/80 backdrop-blur-md ">
       {/* Logo */}
-      <div className=" flex items-center justify-start gap-3">
+      <div className=" flex items-center justify-start gap-2">
+        <img src={Logo} className="h-8" />
         <Link to={`/`} className="flex items-center justify-start gap-2">
           <h1 className="font-bold text-dark-text text-2xl tracking-tight font-Raleway ">
             {ProjectName}
