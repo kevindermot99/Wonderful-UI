@@ -7,10 +7,10 @@ import { ProjectName } from "../content/data";
 function Navbar() {
 
   // link style
-  const LinkStyle = 'font-medium capitalize text-sm text-dark-text hover:text-main-color transition'
+  const LinkStyle = 'font-medium capitalize text-sm text-dark-text hover:opacity-60 transition'
 
   return (
-    <nav className="h-[60px] flex items-center justify-between px-2 w-full sticky top-0 z-20 bg-body-color-light/80 backdrop-blur-md ">
+    <nav className="h-[60px] flex items-center justify-between px-6 w-full sticky top-0 z-20 bg-body-color-light/80 backdrop-blur-md ">
       {/* Logo */}
       <div className=" flex items-center justify-start gap-3">
         <Link to={`/`} className="flex items-center justify-start gap-2">
