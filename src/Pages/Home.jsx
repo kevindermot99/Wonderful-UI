@@ -100,7 +100,7 @@ function Home() {
             <div className="h-[100px] w-[160px] flex items-end justify-center flex-col gap-1">
               <div className="h-[15px] w-full bg-item-bgl-1 rounded-md flex items-center justify-center"></div>
               <div className="h-[60px] w-1/2 flex items-center justify-center flex-col gap-1">
-                <span className="w-full h-auto flex-1 bg-item-bgl-2 rounded-md"></span>
+                {/* <span className="w-full h-auto flex-1 bg-item-bgl-2 rounded-md"></span> */}
                 <span className="w-full h-auto flex-1 bg-item-bgl-1 rounded-md"></span>
               </div>
             </div>
