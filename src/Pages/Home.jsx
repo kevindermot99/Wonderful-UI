@@ -29,14 +29,14 @@ function Home() {
     "",
   ];
   return (
-    <div className="w-full min-h-svh flex flex-col relative text-dark-text bg-body-color-light px-28 ">
+    <div className="w-full min-h-svh flex flex-col relative text-dark-text bg-body-color-light px-14 ">
       <Navbar />
       {/* Wrapper */}
       <div className="flex items-start justify-start flex-col gap-0 w-full h-full relative">
         {/* hero */}
         <div className="h-fit min-h-[300px] w-full flex flex-col items-center justify-center gap-3">
-          <h1 className="font-bold text-[55px] max-w-[700px] leading-[60px] text-center tracking-tighter text-transparent bg-clip-text bg-gradient-to-br from-dark-text to-dark-text/65">
-            60+ Front-end Components & skeletons.
+          <h1 className="font-bold text-[55px] max-w-[700px] leading-[60px] text-center tracking-tighter text-transparent bg-clip-text bg-gradient-to-br from-dark-text to-dark-text/45">
+            50+ Front-end Components & skeletons.
           </h1>
           <p className="font-medium max-w-[500px] text-center text-sm">
             packed with everything you'll need in your front-end coding journey.
@@ -48,7 +48,7 @@ function Home() {
           {/* dashboards */}
           <div
             title="Dashboards"
-            className="min-w-[170px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1 ring-1 ring-border-lines-light/70 flex items-center flex-col justify-between"
+            className="min-w-[170px] max-w-[190px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1  flex items-center flex-col justify-between"
           >
             <div className="h-[100px] w-[160px] flex items-start justify-start gap-1">
               <div className="w-[30%] h-full rounded-md bg-item-bgl-1"></div>
@@ -67,7 +67,7 @@ function Home() {
           {/* buttons */}
           <div
             title="Buttons"
-            className="min-w-[170px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1 ring-1 ring-border-lines-light/70 flex items-center flex-col justify-between"
+            className="min-w-[170px] max-w-[190px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1  flex items-center flex-col justify-between"
           >
             <div className="h-[100px] w-[160px] flex items-center justify-center gap-1">
               <div className="h-[48px] w-full bg-item-bgl-1 rounded-md flex items-center justify-center">
@@ -81,7 +81,7 @@ function Home() {
           {/* loaders */}
           <div
             title="Loaders"
-            className="min-w-[170px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1 ring-1 ring-border-lines-light/70 flex items-center flex-col justify-between"
+            className="min-w-[170px] max-w-[190px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1  flex items-center flex-col justify-between"
           >
             <div className="h-[100px] w-[160px] flex items-center justify-center gap-1">
               <div className="h-[8px] w-full bg-item-bgl-1 rounded-md flex items-center justify-center">
@@ -95,7 +95,7 @@ function Home() {
           {/* nav menus */}
           <div
             title="Nav Menus"
-            className="min-w-[170px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1 ring-1 ring-border-lines-light/70 flex items-center flex-col justify-between"
+            className="min-w-[170px] max-w-[190px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1  flex items-center flex-col justify-between"
           >
             <div className="h-[100px] w-[160px] flex items-end justify-center flex-col gap-1">
               <div className="h-[15px] w-full bg-item-bgl-1 rounded-md flex items-center justify-center"></div>
@@ -111,7 +111,7 @@ function Home() {
           {/* Checkboxes */}
           <div
             title="Checkboxes"
-            className="min-w-[170px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1 ring-1 ring-border-lines-light/70 flex items-center flex-col justify-between"
+            className="min-w-[170px] max-w-[190px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1  flex items-center flex-col justify-between"
           >
             <div className="h-[100px] w-[160px] flex items-end justify-center flex-col gap-1">
               <div className="h-[16px] w-full flex items-center justify-center gap-1">
@@ -130,7 +130,7 @@ function Home() {
           {/* Input fields */}
           <div
             title="Input fields"
-            className="min-w-[170px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1 ring-1 ring-border-lines-light/70 flex items-center flex-col justify-between"
+            className="min-w-[170px] max-w-[190px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1  flex items-center flex-col justify-between"
           >
             <div className="h-[100px] w-[160px] flex items-start justify-center flex-col gap-1">
               <div className="h-[8px] w-1/2 bg-item-bgl-2 rounded-md flex items-center justify-center"></div>
@@ -143,7 +143,7 @@ function Home() {
           {/* Cards */}
           <div
             title="Cards"
-            className="min-w-[170px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1 ring-1 ring-border-lines-light/70 flex items-center flex-col justify-between"
+            className="min-w-[170px] max-w-[190px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1  flex items-center flex-col justify-between"
           >
             <div className="h-[100px] w-[160px] flex items-start justify-center flex-col gap-1">
               <div className="h-[70px] w-full bg-item-bgl-1 rounded-md flex items-end justify-start p-3">
@@ -160,7 +160,7 @@ function Home() {
           {/* Modals */}
           <div
             title="Modals"
-            className="min-w-[170px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1 ring-1 ring-border-lines-light/70 flex items-center flex-col justify-between"
+            className="min-w-[170px] max-w-[190px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1  flex items-center flex-col justify-between"
           >
             <div className="h-[100px] w-[160px] flex items-start justify-center flex-col gap-1">
               <div className="h-[70px] w-full bg-item-bgl-1 rounded-md flex items-center justify-center">
@@ -174,7 +174,7 @@ function Home() {
           {/* Tables */}
           <div
             title="Tables"
-            className="min-w-[170px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1 ring-1 ring-border-lines-light/70 flex items-center flex-col justify-between"
+            className="min-w-[170px] max-w-[190px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1  flex items-center flex-col justify-between"
           >
             <div className="h-[100px] w-[160px] flex items-start justify-center flex-col gap-1">
               <div className="h-[8px] w-full flex items-center justify-center gap-1">
@@ -197,7 +197,7 @@ function Home() {
           {/* Typography */}
           <div
             title="Typography"
-            className="min-w-[170px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1 ring-1 ring-border-lines-light/70 flex items-center flex-col justify-between"
+            className="min-w-[170px] max-w-[190px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1  flex items-center flex-col justify-between"
           >
             <div className="h-[100px] w-[160px] flex items-start justify-center flex-col gap-1">
               <div className="h-[8px] w-1/4 bg-item-bgl-1 rounded-md flex items-center justify-center"></div>
@@ -213,7 +213,7 @@ function Home() {
           {/* Accordions */}
           <div
             title="Accordions"
-            className="min-w-[170px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1 ring-1 ring-border-lines-light/70 flex items-center flex-col justify-between"
+            className="min-w-[170px] max-w-[190px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1  flex items-center flex-col justify-between"
           >
             <div className="h-[100px] w-[160px] flex items-start justify-center flex-col gap-1">
               <div className="h-[8px] w-full bg-item-bgl-1 rounded-md flex items-center justify-center"></div>
@@ -228,7 +228,7 @@ function Home() {
           {/* Footers */}
           <div
             title="Footers"
-            className="min-w-[170px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1 ring-1 ring-border-lines-light/70 flex items-center flex-col justify-between"
+            className="min-w-[170px] max-w-[190px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1  flex items-center flex-col justify-between"
           >
             <div className="h-[100px] w-[160px] flex items-start justify-center flex-col gap-1">
               <div className="h-[40px] w-full bg-item-bgl-1 rounded-md flex items-center justify-center"></div>
@@ -241,7 +241,7 @@ function Home() {
           {/* Breadcrumbs */}
           <div
             title="Breadcrumbs"
-            className="min-w-[170px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1 ring-1 ring-border-lines-light/70 flex items-center flex-col justify-between"
+            className="min-w-[170px] max-w-[190px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1  flex items-center flex-col justify-between"
           >
             <div className="h-[100px] w-[160px] flex items-start justify-center flex-col gap-1">
               <div className="w-full h-[10px] flex items-center justify-center gap-1">
@@ -259,7 +259,7 @@ function Home() {
           {/* Landing Pages */}
           <div
             title="Landing Pages"
-            className="min-w-[170px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1 ring-1 ring-border-lines-light/70 flex items-center flex-col justify-between"
+            className="min-w-[170px] max-w-[190px] pt-4 rounded-md bg-stone-50/10 hover:bg-stone-50 hover:shadow transition gap-2 cursor-pointer h-[160px] flex-1  flex items-center flex-col justify-between"
           >
             <div className="h-[100px] w-[160px] flex items-start justify-center flex-col gap-1">
               <div className="h-fit w-full flex items-center justify-between">
