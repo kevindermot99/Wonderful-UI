@@ -10,7 +10,7 @@ function Navbar() {
   const LinkStyle = 'font-medium capitalize text-sm text-dark-text hover:opacity-60 transition'
 
   return (
-    <nav className="h-[60px] flex items-center justify-between px-6 w-full sticky top-0 z-20 bg-body-color-light/80 backdrop-blur-md ">
+    <nav className="h-[70px] flex items-center justify-between px-6 w-full sticky top-0 z-20 bg-body-color-light/80 backdrop-blur-md ">
       {/* Logo */}
       <div className=" flex items-center justify-start gap-2">
         <img src={Logo} className="h-8" />
@@ -19,10 +19,12 @@ function Navbar() {
             {ProjectName}
           </h1>
         </Link>
+        
       </div>
 
       {/* Buttons */}
       <div className=" flex items-center justify-start gap-4">
+      <div className=" flex items-center justify-start gap-7 ml-5">
         <Link
           to={`/`}
           className={LinkStyle}
@@ -39,8 +41,9 @@ function Navbar() {
           to={`/`}
           className={LinkStyle}
         >
-          Support
+          Documentation
         </Link>
+      </div>
       </div>
     </nav>
   );
