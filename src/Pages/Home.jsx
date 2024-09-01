@@ -85,7 +85,7 @@ function Home() {
           >
             <div className="h-[100px] w-[160px] flex items-center justify-center gap-1">
               <div className="h-[8px] w-full bg-item-bgl-1 rounded-md flex items-center justify-center">
-                <span className="w-16 h-full rounded-md bg-item-bgl-2"></span>
+                {/* <span className="w-16 h-full rounded-md bg-item-bgl-2"></span> */}
               </div>
             </div>
             <p className="h-[30px] w-full text-center flex items-start justify-center font-normal tracking-tight text-sm leading-[16px] capitalize ">
